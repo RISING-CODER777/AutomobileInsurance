@@ -40,7 +40,7 @@ export class ResetPasswordComponent implements OnInit {
       password: ['', [
         Validators.required,
         Validators.minLength(6),
-        UserSignupValidators.passwordStrengthValidator
+        UserSignupValidators.passwordStrengthValidator()
       ]],
       confirmPassword: ['', [
         Validators.required,

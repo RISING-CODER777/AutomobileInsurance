@@ -1,1 +1,19 @@
-<p>page-not-found works!</p>
+<div class="access-denied-container">
+  <div class="error-code">
+    <span>4</span>
+    <div class="door">
+      <img src="assets\images\error-page-images\door-wood.png" alt="Door" class="door-image" />
+      <div class="door-handle"></div>
+      <div class="closed-sign">CLOSED</div>
+    </div>
+    <div class="horizontal-line"></div>
+    <img src="assets\images\error-page-images\human.png" alt="Person leaning on the door" class="person-leaning" />
+    <img src="assets\images\error-page-images\man.png" alt="Man standing" class="man-standing" />
+    <span>4</span>
+  </div>
+  <div class="message">
+    <h1>Oops..!</h1>
+    <p>We couldn't find what you were looking for. You may have misstyped the address or the page may have moved.</p>
+    <button (click)="goBack()">Go Back</button>
+  </div>
+</div>

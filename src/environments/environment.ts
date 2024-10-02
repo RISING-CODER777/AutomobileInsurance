@@ -9,6 +9,7 @@ export const environment = {
     newApprovalEndpoint: 'http://localhost:3000/new-approval',
 
     paymentsEndpoint: 'http://localhost:3000/payments',
+    adminEndpoint :'https://localhost:7246/api/admin',
 
     insuranceOptionsEndpoint: 'http://localhost:3000/insurance-options',
 
